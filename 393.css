@@ -1,0 +1,77 @@
+.navbar,
+.navbar-brand,
+.navbar-nav .nav-link {
+    color: #000000!important;
+      font-family: 'Segoe UI Symbol', sans-serif;
+      font-size: 20px;
+}
+body, html {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+}
+  
+.section {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        
+}
+
+.display-3 {
+    font-size: 5rem; /* Adjust the size as needed */
+    
+}
+
+.lead {
+    font-size: 2.25rem; /* Adjust the size as needed */
+}
+
+#home {
+    background-color: #bcbdbd; 
+ }
+
+#about {
+    background-color: #dddede; 
+}
+
+#projects {
+    background-color: #c5c5c4; 
+}
+
+.container {
+    max-width: 800px;
+  }
+
+  p {
+    font-size: 24px; /* Increase font size */
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  .social-icon {
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.social-item {
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 50%;
+    padding: 15px;
+    transition: 0.3s ease;
+    margin-right: 20px; /* Adjust the spacing as needed */
+
+}
+
+.social-item:hover {
+    background-color: rgb(104, 103, 103);
+}
+
+.social-item a {
+    text-decoration: none;
+    color: rgb(3, 3, 3);
+}
+
